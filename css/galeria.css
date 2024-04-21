@@ -1,0 +1,30 @@
+.imgColumns{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 95%;
+    height: 30%;
+    max-width: fit-content;
+    grid-gap: 10px;
+}
+.imghover:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+@media screen and (max-width:1024px){
+    .imgColumns{
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        height: 40%;
+        max-width: fit-content;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .imgColumns{
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+}

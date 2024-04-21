@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     box-sizing: border-box;
+	color: white
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Saira Semi Condensed', sans-serif;
     margin: 0;
 }
 /*----------------Estilos Base------------------*/
@@ -29,6 +30,7 @@ h1,h2,h3,h4,h5{
     width: 100%;
 }
 
+
 /*----------------Estilos Header------------------*/
 
 
@@ -43,8 +45,8 @@ h1,h2,h3,h4,h5{
         
 }
 .main-header__contactInfo__phone{
-    background:#de423a;
-    color: #fff;
+    background:#3f3939;
+    color: #ffffff;
     padding: 10px;
     margin: 0;
 }
@@ -110,7 +112,7 @@ h1,h2,h3,h4,h5{
     top: 75px;
     left: 0;
     width: 100%;
-    background: rgba(0,0,0,.85);
+    background: rgba(32, 24, 109, 0.85);
     padding:0px;
     margin:0px;
     z-index: 2000px;
@@ -131,12 +133,13 @@ h1,h2,h3,h4,h5{
     
 }
 .menu__link:hover{
-     background-color: #DE423A;
+     background-color: rgb(19, 14, 63);
 }
 .menu__link--select{
-    background-color: #DE423A;
+    background-color: rgb(24, 18, 80);
     
 }
+
 .mostrar{
     height: 210px;
 }
@@ -176,7 +179,7 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color: rgba(32, 24, 109, 0.85);
 	padding: 10px;
 	text-align: center;
 	
@@ -199,11 +202,14 @@ h1,h2,h3,h4,h5{
 	text-align: center;
 	text-decoration: none;
 	width: 120px;
-	background: #DE423A;
-	color: #fff;
+	background: #709db8;
+	color: #ffffff;
 	padding:10px;
 	margin: 10px auto;
 	
+}
+.btn:hover{
+	background-color: #4a6974;
 }
 .group__title{
 	font-family:'Sacramento',cursive;
@@ -237,7 +243,7 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .main-footer{
-	background: #222;
+	background: #3d6ea5;
 	color: #fff;
 	padding: 10px;
 	padding-top: 20px;
@@ -284,7 +290,7 @@ h1,h2,h3,h4,h5{
 		color: #fff;
 	}
 	.main_nav{
-		background:rgba(0,0,0,0.85);
+		background:rgba(32, 24, 109, 0.85);
 	}
 	.banner__content{
 		font-size:1.5em;
