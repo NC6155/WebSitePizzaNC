@@ -6,9 +6,15 @@
     max-width: fit-content;
     grid-gap: 10px;
 }
+/*aumenta el tamaño de la imagen*/
 .imghover:hover{
     transform: scale(1.1);
     transition: 0.5s;
+}
+/*se encargará de los bordes de la imagen, aumentando el tamaño con el tiempo*/
+.imghover:hover{
+    border: 9px solid rgba(248, 248, 248, 0.699);
+    transition:1.5s;
 }
 
 @media screen and (max-width:1024px){
