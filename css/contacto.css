@@ -1,0 +1,18 @@
+.imgMap{
+    height:350px;
+    width: 350px;
+}
+
+@media screen and (max-width:1024px){
+    .imgMap{
+        height: 400px;
+        width: 400px;
+    }
+}
+/*Baja el tamaño de la imagen para que no tome toda la pantalla*/
+@media screen and (max-width:480px){
+    .imgMap{
+        height: 350px;
+        width: 350px;
+    }
+}
